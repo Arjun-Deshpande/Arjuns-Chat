@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+/*import React, { useContext } from "react";
 
 import { Context } from "../context";
 
@@ -63,4 +63,4 @@ export default function Auth(){
       </div>
     </div>
   );
-};
+/*};
