@@ -6,6 +6,11 @@ import { useRouter } from "next/router";
 
 import axios from "axios";
 
+<header>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3253302586312021"
+     crossorigin="anonymous"></script>  
+</header>  
+
 export default function Auth(){
   const { username, setUsername, secret, setSecret } = useContext(Context);
 
