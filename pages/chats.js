@@ -5,6 +5,11 @@ import { Context } from "../context";
 import { useRouter } from "next/router";
 import dynamic from "next/dynamic";
 
+<header>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3253302586312021"
+     crossorigin="anonymous"></script>
+<header>  
+
 const ChatEngine = dynamic(() =>
   import("react-chat-engine").then((module) => module.ChatEngine)
 );
